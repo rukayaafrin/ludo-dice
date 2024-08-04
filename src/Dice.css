@@ -1,0 +1,141 @@
+/* src/Dice.css */
+.dice-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .dice {
+    width: 90vmin; /* This ensures the dice is responsive and maintains aspect ratio */
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dice .dot {
+    width: 10%;
+    height: 10%;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .dice-1 .dot {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dice-2 .dot:nth-child(1) {
+    top: 25%;
+    left: 25%;
+  }
+  
+  .dice-2 .dot:nth-child(2) {
+    bottom: 25%;
+    right: 25%;
+  }
+  
+  .dice-3 .dot:nth-child(1) {
+    top: 25%;
+    left: 25%;
+  }
+  
+  .dice-3 .dot:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dice-3 .dot:nth-child(3) {
+    bottom: 25%;
+    right: 25%;
+  }
+  
+  .dice-4 .dot:nth-child(1) {
+    top: 25%;
+    left: 25%;
+  }
+  
+  .dice-4 .dot:nth-child(2) {
+    top: 25%;
+    right: 25%;
+  }
+  
+  .dice-4 .dot:nth-child(3) {
+    bottom: 25%;
+    left: 25%;
+  }
+  
+  .dice-4 .dot:nth-child(4) {
+    bottom: 25%;
+    right: 25%;
+  }
+  
+  .dice-5 .dot:nth-child(1) {
+    top: 25%;
+    left: 25%;
+  }
+  
+  .dice-5 .dot:nth-child(2) {
+    top: 25%;
+    right: 25%;
+  }
+  
+  .dice-5 .dot:nth-child(3) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dice-5 .dot:nth-child(4) {
+    bottom: 25%;
+    left: 25%;
+  }
+  
+  .dice-5 .dot:nth-child(5) {
+    bottom: 25%;
+    right: 25%;
+  }
+  
+  .dice-6 .dot:nth-child(1) {
+    top: 25%;
+    left: 15%;
+  }
+  
+  .dice-6 .dot:nth-child(2) {
+    top: 25%;
+    left: 45%;
+    transform: translateX(-25%);
+  }
+  
+  .dice-6 .dot:nth-child(3) {
+    top: 25%;
+    right: 15%;
+  }
+  
+  .dice-6 .dot:nth-child(4) {
+    bottom: 25%;
+    left: 15%;
+  }
+  
+  .dice-6 .dot:nth-child(5) {
+    bottom: 25%;
+    left: 45%;
+    transform: translateX(-25%);
+  }
+  
+  .dice-6 .dot:nth-child(6) {
+    bottom: 25%;
+    right: 15%;
+  }
+  
